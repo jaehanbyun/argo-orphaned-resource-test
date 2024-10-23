@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: example-service-new2
+  name: example-service-new3
 spec:
   selector:
-    app: example-app-new2
+    app: example-app-new3
   ports:
     - protocol: TCP
       port: 80
