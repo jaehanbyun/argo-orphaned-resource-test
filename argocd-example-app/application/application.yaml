@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: guestbook-ui
+  name: orphaned-resource
   namespace: argocd
 spec:
   project: my-app-project
   source:
     repoURL: https://github.com/jaehanbyun/argo-orphaned-resource-test.git
-    path: argocd-example-app/application
+    path: argocd-example-app/application/manifest
     targetRevision: main
   destination:
     server: https://kubernetes.default.svc
