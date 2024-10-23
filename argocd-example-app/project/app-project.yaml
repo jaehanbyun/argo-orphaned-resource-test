@@ -7,7 +7,7 @@ spec:
   sourceRepos:
     - https://github.com/jaehanbyun/argo-orphaned-resource-test.git
   destinations:
-    - namespace: "default"
+    - namespace: "orphaned"
       server: https://kubernetes.default.svc
   orphanedResources:
     warn: true
